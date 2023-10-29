@@ -2,37 +2,37 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Arun Kumar EA</title>
-    <meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+	<head>
+		<title>Arun Kumar EA</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+		<link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+		<link rel="stylesheet" href="css/animate.css">
+		<link rel="stylesheet" href="css/owl.carousel.min.css">
+		<link rel="stylesheet" href="css/owl.theme.default.min.css">
+		<link rel="stylesheet" href="css/magnific-popup.css">
+		<link rel="stylesheet" href="css/my.css">
+		<link rel="stylesheet" href="https://fontawesome.com/icons/bowl-food?f=classic&s=light">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+		<link rel="stylesheet" href="css/aos.css">
+		<link rel="stylesheet" href="css/ionicons.min.css">
+		<link rel="stylesheet" href="css/flaticon.css">
+		<link rel="stylesheet" href="css/icomoon.css">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.19/jquery.touchSwipe.min.js"></script>
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+		<script type="text/javascript">
+			(function () {
+				emailjs.init("y2b55J0lHeOWBrryE");
+			})();
+		</script>
+		<script src="Arun_home.js"></script>
+		
+	</head>
+	
 
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
-    <link rel="stylesheet" href="css/animate.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css"> 
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/my.css">
-	<link rel="stylesheet" href="https://fontawesome.com/icons/bowl-food?f=classic&s=light">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="css/aos.css">
-    <link rel="stylesheet" href="css/ionicons.min.css">
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/icomoon.css">
-    <link rel="stylesheet" href="css/style.css">
-<!-- mail -->
-<script src="Arun_home.js"></script>
-<script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
-</script>
-<script type="text/javascript">
-   (function(){
-      emailjs.init("y2b55J0lHeOWBrryE");
-   })();
-</script>
-<!-- mail -->
   </head>
 
 
@@ -40,7 +40,7 @@
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.html">Arun</a>
+	      <a class="navbar-brand"  href="#home-section">Arun</a>
 	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
@@ -55,9 +55,12 @@
 	      </div>
 	    </div>
 	  </nav>
+	  <div class="touch-responsive-container">
 
 	  
 	  <section id="home-section" class="hero">
+
+
 		<div class="home-slider  owl-carousel">
 		<div class="slider-item ">
 			<div class="overlay"></div>
@@ -66,7 +69,7 @@
 				<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/yeshu1.jpg);">
 					<div class="overlay"></div>
 				</div>
-				<div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+				<div  style="overflow: auto;" class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
 					<div class="text">
 						<span class="subheading">Hello!</span>
 					  <h1 class="mb-4 mt-3">I'm <span>Arun Kumar</span></h1>
@@ -83,7 +86,8 @@
 				<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/firstpic.png);">
 					<div class="overlay"></div>
 				</div>
-				<div class="one-forth d-flex align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+
+				<div style="overflow: auto;" class="one-forth d-flex align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
 					<div class="text">
 						<span class="subheading">Hello!</span>
 					  <h1 class="mb-4 mt-3">I'm a <span>Web Developer</span> based in Earth</h1>
@@ -92,8 +96,19 @@
 			  </div>
 		  </div>
 		</div>
+	   
+
+
+		
 	  </div>
+
+
+
   </section>
+
+</div>
+
+
     <section class="ftco-about img ftco-section ftco-no-pb" id="about-section" style="margin-top: 150px;">
     	<div class="container">
     		<div class="row d-flex">
@@ -582,6 +597,22 @@
     cursor: pointer;
 	color: #910a0a; 
 }
+
+</style>
+
+<style>
+	.touch-responsive-container {
+    overflow: auto; /* Enable scrolling in all directions */
+    height: 100vh; /* Adjust the height as needed */
+    position: relative;
+}
+
+.home-slider {
+    width: 100%; /* Ensure the slider takes full width */
+}
+
+
+
 
 </style>
 
